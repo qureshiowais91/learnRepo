@@ -1,0 +1,16 @@
+what i  am doing  ? 
+ i am tring to build a todo list app with web component in js.
+
+what i have done yet ? 
+ made simple todo list app
+there are three main files
+    index,elements,search  
+
+    index: is html file nothing special
+    elements: containe code for  p tag and delete button. it's a cutome component
+    search : dont thing of name any special. it just simple input box and button.
+
+
+what i want to do ? 
+
+    i want to push my todo list tasks array in to the 
