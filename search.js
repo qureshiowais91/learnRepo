@@ -7,6 +7,7 @@ class boxbutton extends HTMLElement {
         this.attachShadow({mode: "open"});
         this.inputHandler = inputHandler.bind(this);
         this.tasks = [];
+        let chnages;
         this.shadowRoot.innerHTML = `
      <style>
 
@@ -42,7 +43,7 @@ class boxbutton extends HTMLElement {
         const inputbox = this.shadowRoot.querySelector("input");
         inputbox.removeEventListener('click', this.inputHandler);
     }
-
+   
 }
 
 function inputHandler() { // task obj
